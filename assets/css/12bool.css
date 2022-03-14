@@ -6,9 +6,15 @@
 
 /* #region *** Common *** */
 
+img {
+    max-width: 100%;
+}
+
 /* #endregion *** Common *** */
 
 /* #region *** Utility *** */
+
+
 
 .container {
     max-width: 1170px;
@@ -21,13 +27,47 @@
     padding: 1rem;
 }
 
+.m-top-1 {
+    margin-top: 1rem;
+}
+
+.r-gap-2 {
+    row-gap: 2rem;
+}
+
 
 
 /* #endregion *** Spaces *** */
 
+/* #region *** Text *** */
 
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* #endregion *** Text *** */
 
 /* #region *** Grid *** */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
 
 .row {
     display: flex;

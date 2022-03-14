@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #region *** Header ***  */
+
+header {
+    background-color: rgb(216, 216, 216);
+}
+
+header .logo {
+    font-size: 30px;
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    color: white;
+}
+
+/* #endregion *** Header ***  */
+
+footer {
+    background-color: rgb(216, 216, 216);
+}
+
+footer>.container ul {
+    list-style: none;
+}
+
+li {
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+li>a {
+    color: gray;
+}
+
+li>a:hover {
+    color: white;
+}
