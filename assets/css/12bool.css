@@ -15,6 +15,17 @@
     margin: 0 auto;
 }
 
+/* #region *** Spaces *** */
+
+.p-1 {
+    padding: 1rem;
+}
+
+
+
+/* #endregion *** Spaces *** */
+
+
 
 /* #region *** Grid *** */
 
